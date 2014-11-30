@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/lisps")
+(add-to-list 'load-path "~/.emacs.d")
 (require 'smart-compile)
 (global-set-key [f5] 'smart-compile)
 (global-set-key [(C-f5)] 'recompile)
