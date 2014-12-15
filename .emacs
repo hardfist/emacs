@@ -1,5 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d")
 (require 'smart-compile)
+(require 'aadl-mode)
 (global-set-key [f5] 'smart-compile)
 (global-set-key [(C-f5)] 'recompile)
 (global-set-key [f6] 'shell)

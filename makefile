@@ -1,4 +1,4 @@
 .PHONY: INST
 INST:
 	cp .emacs ~/
-	cp smart-compile.el ~/.emacs.d/
+	cp smart-compile.el aadl-mode.el  ~/.emacs.d/
