@@ -52,7 +52,7 @@
   (octave-mode        . (run-octave))
   ("\\.c\\'"          . "gcc -std=c99 -g -O0 %f -Wall -lm -lpthread -o %n")
 ;;  ("\\.c\\'"          . "gcc -O0 -g  %f -lm -o %n && ./%n")
-  ("\\.[Cc]+[Pp]*\\'" . "g++  -g -O0 %f -Wall -lm -lpthread -o %n")
+  ("\\.[Cc]+[Pp]*\\'" . "g++  -g -std=c++11 -O0 %f -Wall -lm -lpthread -o %n")
   ("\\.m\\'"          . "gcc -std=c++11 -g -O0 %f -lobjc -lpthread -o %n")
   ("\\.py\\'"         . "chmod a+x %f")
   ("\\.java\\'"       . "javac %f")
