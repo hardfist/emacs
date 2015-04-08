@@ -1,0 +1,52 @@
+ls
+cd work/alg
+cd ~/work/algs
+ls
+cd chap12
+ls
+./Point.dSYM/
+ls
+cd ..
+ls
+./Point.dSYM/
+ls
+cd .
+ls
+cd ..
+ls
+./Point
+./Point.dSYM/
+cd ..
+ls
+./Point
+ls
+ls
+./Point.dSYM/
+cd ..
+s
+ls
+./Point
+ls
+./fib
+ls
+./fib
+ls
+./fib
+ls
+./fib
+ls
+./Point
+ls
+./fib
+ls
+./fib
+ls
+./fib
+ls
+ls
+./partition
+gdb partition
+ls
+q
+q
+emacs sum.cc
